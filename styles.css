@@ -1,0 +1,31 @@
+.centered-text {
+    text-align: center;
+    font-size: 12px;
+    color: #2E2F42;
+}
+
+
+
+
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    margin-right: 10px;
+    
+}
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+.centered-heading {
+    text-align: center;
+}
+.team-list li {
+    flex-basis: 25%;
+    text-align: center;
+}
